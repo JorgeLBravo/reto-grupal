@@ -1,4 +1,41 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 960px;
+  margin: auto;
+  background-color: gray;
+}
+.header{
+  border: solid 2px black;
+}
+
+.header-nav{
+  border: solid yellow;
+  display: inline-block;
+  width: 100%;
+  height: 4em;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.cuadrados{
+  display: flex;
+  border: solid red;
+}
+.nav-ul ul{
+  display: flex;
+  margin-right: 10px;
+  border: solid green;
+}
+.nav-ul ul li{
+  margin-right: 20px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }

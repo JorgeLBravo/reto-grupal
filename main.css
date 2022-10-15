@@ -2,3 +2,52 @@
   margin: 0;
   padding: 0;
 }
+
+.header{
+  display: flex;
+  margin: 20px 100px;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.header ul{
+  display: flex;
+}
+
+.header ul li{
+  list-style: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header ul li:hover{
+  border-bottom: 2px solid ;
+  color: #832FDA;
+  font-weight: 2em;
+}
+
+.content{
+  margin-inline: 40px;
+  display: flex;
+}
+.content-left{
+ width: 50%;
+}
+.content-right{
+  width: 50%;
+}
+.content-title h1{
+  font-size: 3em;
+}
+.h1-color{
+  color: #00CF95;
+}
+.content-parrafo{
+  margin-top: 20px;
+  margin-right: 80px;
+}
+.content-button{
+  margin-top: 25px;
+  padding: 15px 25px;
+  color: white;
+  background: #6D0AD3;
+}
